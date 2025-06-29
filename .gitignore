@@ -1,0 +1,19 @@
+# Bỏ qua thư mục môi trường ảo
+venv/
+ENV/
+env/
+
+# Bỏ các file Python biên dịch
+__pycache__/
+*.py[cod]
+*.so
+
+# Bỏ các file log/tạm
+*.log
+*.tmp
+
+# Bỏ file hệ thống VSCode (nếu có)
+.vscode/
+
+# Nếu dùng Jupyter Notebook (không cần ở đây nhưng để phòng)
+.ipynb_checkpoints/
